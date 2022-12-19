@@ -24,7 +24,7 @@ class OrderController extends BaseApiController
     public function create(Request $request)
     {
         $request->validate([
-//            'name' => 'required|min:2|max:100',
+            'name' => 'required|min:2|max:100',
             'item_id' => 'required|exists:items,id,deleted_at,NULL',
         ]);
 

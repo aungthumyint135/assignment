@@ -12,7 +12,7 @@ use App\Repositories\Order\OrderRepositoryInterface;
 
 class OrderService extends CommonService
 {
-    protected $orderRepository;
+    protected OrderRepositoryInterface $orderRepository;
 
     public function __construct(OrderRepositoryInterface $orderRepository)
     {

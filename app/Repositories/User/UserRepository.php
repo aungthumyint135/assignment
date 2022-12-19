@@ -28,15 +28,4 @@ class UserRepository extends BaseRepository implements UserRepositoryInterface
 
         return $query;
     }
-
-    public function changeStatus($status)
-    {
-        $user = Auth::guard('users')->user();
-
-        $user->status = boolval($status);
-
-        $user->save();
-
-        return $user;
-    }
 }

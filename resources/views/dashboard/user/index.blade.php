@@ -13,11 +13,6 @@
                                 <i class="bi bi-plus-square"></i>&nbsp;<span>Create New</span>
                             </a>
                         @endcan
-
-                            <button class="btn btn-sm light btn-success me-2 my-auto" id="activate">
-                                <i class="bi bi-trash3"></i>&nbsp;<span>Activate User</span>
-                            </button>
-
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-12 ms-auto">
                         <div class="search">
