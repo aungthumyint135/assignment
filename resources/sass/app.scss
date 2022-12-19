@@ -1,0 +1,31 @@
+//// Fonts
+//@import url('https://fonts.bunny.net/css?family=Nunito');
+//
+//// Variables
+//@import 'variables';
+//
+//// Bootstrap
+//@import 'bootstrap/scss/bootstrap';
+//
+//
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import 'variables';
+@import '~normalize.css/normalize.css';
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import '~bootstrap/scss/bootstrap';
+
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+@import '~select2/src/scss/core';
+@import '~select2-bootstrap-5-theme/src/include-all';
+@import '~sweetalert2/src/sweetalert2';
+@import '~datatables.net-bs5/css/dataTables.bootstrap5.css';
+@import "~datatables.net-responsive-bs5/css/responsive.bootstrap5.css";
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css";
+@import "~@toast-ui/editor/dist/toastui-editor.css";
+
+
